@@ -41,8 +41,9 @@ Copy the output files to the bit_files dir using the build/cmd script
 
 
 ### Merge ROM data into the bitfile
-I believe the bit file that exists now has the ROM structure, but not the copy written program.
-Once the generated bitfile is in the location the batch file expects
+I believe the bit file that exists now has the ROM structure, but not the program data&copy;.
+
+Once the generated bitfile is in the location the batch file expects..
 > merge_roms_frogger.bat
 
 _After this step, this bit file shouldn't be distrubted to people without a license for that ROM!_
