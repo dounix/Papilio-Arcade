@@ -19,12 +19,12 @@ copy roms matching the checksums in scramble_rel001_papilio/scripts/build_roms_f
     to the scramble_rel001_papilio/roms/frogger_sega directory
 
 
-### Generate vhdl from ROM files
+### Generate vhdl structure from ROM files
 open a command prompt and navigate to scramble_rel001_papilio/scripts
 > build_roms_frogger.bat
 
 You should see new files in the ../build direcotry, in particular non-zero lenth ROM_*.vhd files
-
+_fix any errors with build_roms before going forward_
 
 ### Run the ISE project for the lx9
 Browse the build directory and launch
